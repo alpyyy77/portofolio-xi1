@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Sansation;
+    src: url(Sansation_Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Sansation";
+    line-height: 1.6;
+    background-color: F6F5F2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#f4f4f4;   
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px 20px 0px 20px;
+    color:#333;
+}
+
+nav ul li a:hover {
+    text-decoration:underline;
+}
+
+
+.gambarlogomuseum {
+    width: auto;
+    height: auto;
+    
+ }
+
+ .depan img {
+    width: 100%;
+    height: auto;
+    position: relative;
+ }
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 8vh;
+}
+
+.txtgambar {
+    display: flex;
+    margin-bottom: 100px;
+  }
+  
+  .txtsatu {
+    flex: 1;
+    margin-left: 10%;
+    margin-bottom: 2s00px;
+
+  }
+  
+  .gambarsatu {
+    flex: 1;
+    margin-top: 5px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .gambarsatu img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .gambardua img {
+    align-items: right;
+    margin-left: 25%;
+    margin-bottom: 100px;
+
+  }
+
+  .gambardua {
+    flex: 1;
+    margin-top: -400px;
+    margin-right: 900px;
+    display: left;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .txtdua {
+    margin-top: 20px;
+    margin-left: 50%;
+    margin-right: 10%;
+  }
+
+  .struktur {
+    margin-left: 350px;
+  }
+
+  .profil {
+    margin-left: 250px;
+  }
+
+.judul {
+    margin-bottom: 50px;
+    margin-top: -40px;
+    margin-left: 10%;
+    text-decoration: underline;
+}
+
+.txtdua p {
+    margin: 0 0 10px 0;
+    }
